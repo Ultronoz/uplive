@@ -28,7 +28,7 @@ function App() {
             <h1 class="display-3">Precisa de uma conselho?</h1>
             <p class="lead">Aperte o botão!</p>
             
-            <button onClick={res}>cliq</button>  
+            <button onClick={req}>cliq</button>  
             
             </center>
         </div>
