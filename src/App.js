@@ -1,6 +1,6 @@
 
 import './App.css';
-import { Button } from 'react-bootstrap';
+
 function req() {
   fetch("https://api.adviceslip.com/advice")
   .then(function(res) {
@@ -28,7 +28,7 @@ function App() {
             <h1 class="display-3">Precisa de uma conselho?</h1>
             <p class="lead">Aperte o botão!</p>
             
-              
+            <button onClick={res}>cliq</button>  
             
             </center>
         </div>
