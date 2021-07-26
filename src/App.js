@@ -13,10 +13,15 @@ function req() {
   })
   
 }
+
+
+
+
 function App() {
   return (
     
     <div className="App">
+        
       <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -26,7 +31,7 @@ function App() {
       <header className="App-header" >
         <div class="p-5 " id="jumbo">
           <center>
-            <h1 class="display-3">Precisa de uma conselho?</h1>
+            <h1 class="display-3">Precisa de um conselho?</h1>
             <p class="lead">Aperte o botão!</p>
             
              
