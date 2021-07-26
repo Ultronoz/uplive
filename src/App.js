@@ -1,17 +1,7 @@
 
 import './App.css';
 
-function req() {
-  fetch("https://api.adviceslip.com/advice")
-  .then(function(res) {
-    return res.json()
-  })
-  .then(function(data) {
-  
-    document.getElementById('h1').innerHTML = data.slip.advice;
-  })
-  
-}
+
 function App() {
   return (
     
@@ -28,7 +18,7 @@ function App() {
             <h1 class="display-3">Precisa de uma conselho?</h1>
             <p class="lead">Aperte o botão!</p>
             
-            <button onClick={req}>cliq</button>  
+            <button >cliq</button>  
             
             </center>
         </div>
